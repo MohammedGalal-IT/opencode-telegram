@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "token": "YOUR_TELEGRAM_BOT_TOKEN_FROM_BOTFATHER",
+  "allowedChatIds": [
+    "YOUR_TELEGRAM_CHAT_ID"
+  ],
+  "defaultDirectory": "C:/path/to/your/default/project",
+  "liveStream": true,
+  "notifyAllSessions": true,
+  "tableMode": "smart",
+  "pythonCommand": "python",
+  "pollTimeoutSeconds": 25,
+  "debug": false
+}

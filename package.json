@@ -1,0 +1,33 @@
+{
+  "name": "opencode-telegram",
+  "version": "1.1.0",
+  "description": "Comprehensive Telegram bridge for OpenCode V2: multi-project tracking, interactive chat, live streaming, permission approvals, and remote power management.",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "*.ts",
+    "README.md",
+    "README_AR.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "opencode-telegram.example.json"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "telegram",
+    "telegram-bot",
+    "ai-agent",
+    "remote-coding",
+    "pair-programming"
+  ],
+  "author": "MGoDEV",
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.0"
+  }
+}

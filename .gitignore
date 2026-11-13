@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Logs & Runtime Dumps
+*.log
+probe.log
+telegram-bridge.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Private Configuration & Secrets (Never commit bot tokens or chat IDs)
+opencode-telegram.json
+opencode-telegram.local.json
